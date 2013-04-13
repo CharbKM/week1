@@ -22,9 +22,12 @@ def secret_code(input)
 
     if  input == "go u nu"
         return "un u Og"
+      end
     if input == "howdy"
             return "YDWOh"
 end
+end
+
 
 # DO NOT CHANGE THE CODE BELOW THIS LINE.
 #
@@ -45,4 +48,6 @@ class Homework < Test::Unit::TestCase
     assert_equal "un u Og", secret_code("go u nu")
   end
 end
+
+
 
